@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+		<script
+			src="https://kit.fontawesome.com/016303b906.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./index.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="img-container">
+				<img src="./assets/vector64bdf83d.png" alt="" class="img" />
+			</div>
+			<div>
+				<h3 class="heading">Login</h3>
+				<form>
+					<div class="email-container">
+						<label for="email">Email</label>
+						<input type="email" id="email" />
+						<i class="fas fa-exclamation-triangle warning"></i>
+					</div>
+					<div class="password-container">
+						<label for="password">Password</label>
+						<input type="password" id="password" minlength="8" />
+						<i class="fas fa-exclamation-triangle warning"></i>
+						<a href="#">Forgot Password?</a>
+					</div>
+					<button type="submit" class="btn">Log In</button>
+				</form>
+				<div class="separator">
+					<span> or connect with</span>
+				</div>
+				<div class="icons">
+					<a href="#">
+						<img src="./assets/microsoft.svg" class="icon" alt="" />
+					</a>
+					<a href="#">
+						<img src="./assets/facebook.svg" class="icon" alt="" />
+					</a>
+					<a href="#">
+						<img src="./assets/search.svg" class="icon" alt="" />
+					</a>
+					<a href="#">
+						<img src="./assets/linkedin.svg" class="icon" alt="" />
+					</a>
+				</div>
+				<p class="signup">Don’t have an Account ? <a href="#">SignUp</a></p>
+			</div>
+		</div>
+	</body>
+</html>
